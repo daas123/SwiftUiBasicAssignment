@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923112232AE161BF0068A16B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923112222AE161BF0068A16B /* Constant.swift */; };
+		92352DBB2AE151FE00E9C25A /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92352DBA2AE151FE00E9C25A /* SignUpPage.swift */; };
 		924A94C52AE14C9A006AC3D2 /* SwiftUiBasicAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A94C42AE14C9A006AC3D2 /* SwiftUiBasicAssignmentApp.swift */; };
-		924A94C72AE14C9A006AC3D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A94C62AE14C9A006AC3D2 /* ContentView.swift */; };
 		924A94C92AE14CA0006AC3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924A94C82AE14CA0006AC3D2 /* Assets.xcassets */; };
 		924A94CC2AE14CA0006AC3D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924A94CB2AE14CA0006AC3D2 /* Preview Assets.xcassets */; };
+		924A94D72AE14D3A006AC3D2 /* StarterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A94D62AE14D3A006AC3D2 /* StarterPage.swift */; };
+		929925C72AE246AE00E1E0A8 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929925C62AE246AE00E1E0A8 /* SignInPage.swift */; };
+		929925CB2AE277F100E1E0A8 /* WelcomeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929925CA2AE277F100E1E0A8 /* WelcomeTask.swift */; };
+		929925CD2AE2828200E1E0A8 /* DashBoardpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929925CC2AE2828200E1E0A8 /* DashBoardpage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		923112222AE161BF0068A16B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		92352DBA2AE151FE00E9C25A /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
 		924A94C12AE14C9A006AC3D2 /* SwiftUiBasicAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiBasicAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		924A94C42AE14C9A006AC3D2 /* SwiftUiBasicAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiBasicAssignmentApp.swift; sourceTree = "<group>"; };
-		924A94C62AE14C9A006AC3D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		924A94C82AE14CA0006AC3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		924A94CB2AE14CA0006AC3D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		924A94D62AE14D3A006AC3D2 /* StarterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterPage.swift; sourceTree = "<group>"; };
+		929925C62AE246AE00E1E0A8 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		929925CA2AE277F100E1E0A8 /* WelcomeTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTask.swift; sourceTree = "<group>"; };
+		929925CC2AE2828200E1E0A8 /* DashBoardpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardpage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		923112212AE161A10068A16B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				923112222AE161BF0068A16B /* Constant.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		924A94B82AE14C9A006AC3D2 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +69,11 @@
 		924A94C32AE14C9A006AC3D2 /* SwiftUiBasicAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				923112212AE161A10068A16B /* Utils */,
+				924A94D42AE14CC1006AC3D2 /* Controller */,
+				924A94D32AE14CBD006AC3D2 /* View */,
+				924A94D22AE14CB7006AC3D2 /* Model */,
 				924A94C42AE14C9A006AC3D2 /* SwiftUiBasicAssignmentApp.swift */,
-				924A94C62AE14C9A006AC3D2 /* ContentView.swift */,
 				924A94C82AE14CA0006AC3D2 /* Assets.xcassets */,
 				924A94CA2AE14CA0006AC3D2 /* Preview Content */,
 			);
@@ -65,6 +86,32 @@
 				924A94CB2AE14CA0006AC3D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		924A94D22AE14CB7006AC3D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		924A94D32AE14CBD006AC3D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				924A94D62AE14D3A006AC3D2 /* StarterPage.swift */,
+				92352DBA2AE151FE00E9C25A /* SignUpPage.swift */,
+				929925C62AE246AE00E1E0A8 /* SignInPage.swift */,
+				929925CA2AE277F100E1E0A8 /* WelcomeTask.swift */,
+				929925CC2AE2828200E1E0A8 /* DashBoardpage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		924A94D42AE14CC1006AC3D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924A94C72AE14C9A006AC3D2 /* ContentView.swift in Sources */,
+				929925CD2AE2828200E1E0A8 /* DashBoardpage.swift in Sources */,
+				924A94D72AE14D3A006AC3D2 /* StarterPage.swift in Sources */,
 				924A94C52AE14C9A006AC3D2 /* SwiftUiBasicAssignmentApp.swift in Sources */,
+				92352DBB2AE151FE00E9C25A /* SignUpPage.swift in Sources */,
+				923112232AE161BF0068A16B /* Constant.swift in Sources */,
+				929925C72AE246AE00E1E0A8 /* SignInPage.swift in Sources */,
+				929925CB2AE277F100E1E0A8 /* WelcomeTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
