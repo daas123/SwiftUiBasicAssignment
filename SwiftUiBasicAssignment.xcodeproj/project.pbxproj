@@ -16,6 +16,8 @@
 		929925C72AE246AE00E1E0A8 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929925C62AE246AE00E1E0A8 /* SignInPage.swift */; };
 		929925CB2AE277F100E1E0A8 /* WelcomeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929925CA2AE277F100E1E0A8 /* WelcomeTask.swift */; };
 		929925CD2AE2828200E1E0A8 /* DashBoardpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929925CC2AE2828200E1E0A8 /* DashBoardpage.swift */; };
+		92B34AD32AE68C2500F907A4 /* UserData Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B34AD22AE68C2500F907A4 /* UserData Model.swift */; };
+		92B34ADA2AE68F9200F907A4 /* ReUsableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B34AD92AE68F9200F907A4 /* ReUsableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		929925C62AE246AE00E1E0A8 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
 		929925CA2AE277F100E1E0A8 /* WelcomeTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTask.swift; sourceTree = "<group>"; };
 		929925CC2AE2828200E1E0A8 /* DashBoardpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardpage.swift; sourceTree = "<group>"; };
+		92B34AD22AE68C2500F907A4 /* UserData Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData Model.swift"; sourceTree = "<group>"; };
+		92B34AD92AE68F9200F907A4 /* ReUsableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReUsableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				923112212AE161A10068A16B /* Utils */,
+				924A94D22AE14CB7006AC3D2 /* Model */,
 				924A94D42AE14CC1006AC3D2 /* Controller */,
 				924A94D32AE14CBD006AC3D2 /* View */,
-				924A94D22AE14CB7006AC3D2 /* Model */,
 				924A94C42AE14C9A006AC3D2 /* SwiftUiBasicAssignmentApp.swift */,
 				924A94C82AE14CA0006AC3D2 /* Assets.xcassets */,
 				924A94CA2AE14CA0006AC3D2 /* Preview Content */,
@@ -91,6 +95,7 @@
 		924A94D22AE14CB7006AC3D2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92B34AD22AE68C2500F907A4 /* UserData Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,11 +103,12 @@
 		924A94D32AE14CBD006AC3D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				924A94D62AE14D3A006AC3D2 /* StarterPage.swift */,
-				92352DBA2AE151FE00E9C25A /* SignUpPage.swift */,
-				929925C62AE246AE00E1E0A8 /* SignInPage.swift */,
-				929925CA2AE277F100E1E0A8 /* WelcomeTask.swift */,
-				929925CC2AE2828200E1E0A8 /* DashBoardpage.swift */,
+				92A60BFE2AE8E5B2004D986E /* New Group */,
+				92B34AD42AE68F1800F907A4 /* StarterPage */,
+				92B34AD52AE68F2600F907A4 /* SignUpPage */,
+				92B34AD62AE68F3000F907A4 /* SignInPage */,
+				92B34AD72AE68F3A00F907A4 /* WelcomePage */,
+				92B34AD82AE68F4900F907A4 /* DashboardPage */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +118,54 @@
 			children = (
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		92A60BFE2AE8E5B2004D986E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		92B34AD42AE68F1800F907A4 /* StarterPage */ = {
+			isa = PBXGroup;
+			children = (
+				924A94D62AE14D3A006AC3D2 /* StarterPage.swift */,
+			);
+			path = StarterPage;
+			sourceTree = "<group>";
+		};
+		92B34AD52AE68F2600F907A4 /* SignUpPage */ = {
+			isa = PBXGroup;
+			children = (
+				92352DBA2AE151FE00E9C25A /* SignUpPage.swift */,
+			);
+			path = SignUpPage;
+			sourceTree = "<group>";
+		};
+		92B34AD62AE68F3000F907A4 /* SignInPage */ = {
+			isa = PBXGroup;
+			children = (
+				929925C62AE246AE00E1E0A8 /* SignInPage.swift */,
+			);
+			path = SignInPage;
+			sourceTree = "<group>";
+		};
+		92B34AD72AE68F3A00F907A4 /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				929925CA2AE277F100E1E0A8 /* WelcomeTask.swift */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
+		92B34AD82AE68F4900F907A4 /* DashboardPage */ = {
+			isa = PBXGroup;
+			children = (
+				929925CC2AE2828200E1E0A8 /* DashBoardpage.swift */,
+				92B34AD92AE68F9200F907A4 /* ReUsableCell.swift */,
+			);
+			path = DashboardPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,10 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				929925CD2AE2828200E1E0A8 /* DashBoardpage.swift in Sources */,
+				92B34AD32AE68C2500F907A4 /* UserData Model.swift in Sources */,
 				924A94D72AE14D3A006AC3D2 /* StarterPage.swift in Sources */,
 				924A94C52AE14C9A006AC3D2 /* SwiftUiBasicAssignmentApp.swift in Sources */,
 				92352DBB2AE151FE00E9C25A /* SignUpPage.swift in Sources */,
 				923112232AE161BF0068A16B /* Constant.swift in Sources */,
+				92B34ADA2AE68F9200F907A4 /* ReUsableCell.swift in Sources */,
 				929925C72AE246AE00E1E0A8 /* SignInPage.swift in Sources */,
 				929925CB2AE277F100E1E0A8 /* WelcomeTask.swift in Sources */,
 			);

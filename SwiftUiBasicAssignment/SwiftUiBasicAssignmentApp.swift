@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUiBasicAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            StarterPage()
+            DashBoardpage()
         }
     }
 }
